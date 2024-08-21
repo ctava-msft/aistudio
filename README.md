@@ -31,6 +31,21 @@ The following table describes the resources created in the deployment:
 | `Microsoft.MachineLearningServices` | `An Azure AI Hub` |
 
 
+# Setup Python environment
+
+```
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+# Perform evaluations
+
+To execute the script, exxecute the following:
+```
+python script.py
+```
+
 ## Learn more
 
 If you are new to Azure AI studio, see:

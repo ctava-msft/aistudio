@@ -1,0 +1,6 @@
+paths:
+  - file: ./survey_sentiment.csv
+transformations:
+  - read_delimited:
+        delimiter: ','
+        encoding: 'ascii'
